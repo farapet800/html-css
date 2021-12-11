@@ -6,59 +6,59 @@
 </head>
 <body>
 <form action="#" method="post" enctype="multipart/form-data">
+   <div>
+       <p><h4>Имя</h4></p>
+       <input tabindex="1" placeholder="Имя" type="text" name="username" />
+   </div>
     <div>
-        <p>Имя</p>
-        <input  placeholder="Имя" type="text" name="username" tabindex="1" />
+        <p><h4>Пароль</h4></p>
+        <input tabindex="2"  type="password" name="userpass" />
     </div>
     <div>
-        <p>Пароль</p>
-        <input type="password" name="userpass" tabindex="2" />
+        <p><h4>Телефон</h4></p>
+        <input tabindex="3"  type="tel" name="userphone" />
     </div>
     <div>
-        <p>Телефон</p>
-        <input type="tel" name="userphone" tabindex="3" />
-    </div>
-    <div>
-        <p>Пол</p>
+        <p><h4>Пол</h4></p>
         <div>
-            <input type="radio" checked name="gender" value="male" tabindex="4" /> Мужской
+        <input tabindex="4" checked type="radio" name="male" value="gender" />Мужской
         </div>
         <div>
-            <input type="radio" name="gender" value="femele" tabindex="4" />Женский
+        <input tabindex="4" checked type="radio" name="female" value="gender" />Женский
         </div>
     </div>
     <div>
-        <p>Имущество</p>
+        <p><h4>Имущество</h4></p>
         <div>
-            <input checked type="checkbox" name="bike" value="yes" tabindex="5" />Велик
+            <input tabindex="5" checked type="checkbox" name="bike" value="yes"/> Велик
         </div>
         <div>
-            <input type="checkbox" name="car" value="yes" tabindex="6" />Квартира
+            <input tabindex="6"  type="checkbox" name="car" value="yes"/> Машина
         </div>
         <div>
-            <input disabled type="checkbox" name="house" value="yes" tabindex="7" />Дом
+            <input tabindex="7" disabled type="checkbox" name="house" value="yes"/> Дом
         </div>
     </div>
     <div>
         <p>Дополнительная информация</p>
-        <textarea tabindex="8" name="text" ></textarea>
+        <textarea tabindex="8" name="text"></textarea>
     </div>
     <div>
         <p>Прикрепить фото</p>
-        <input tabindex="9" type="file" name="userfoto">
+        <input tabindex="9" type="file">
     </div>
     <div>
         <p>Любимый цвет</p>
-        <select  tabindex="10" name="color" >
-            <option value="red">Красный</option>
-            <option selected value="green">Зеленый</option>
-            <option value="yeloww">желтый</option>
+        <select tabindex="10" name="color">
+            <option value="red">красный</option>
+            <option selected value="blue">голубой</option>
+            <option value="green">зеленый</option>
         </select>
     </div>
     <div>
         <p>Действия</p>
         <button tabindex="11" type="submit">Отправить</button>
-        <button tabindex="12" type="reset">очистить</button>
+        <button tabindex="12" type="reset">Очистить</button>
     </div>
 </form>
 </body>
