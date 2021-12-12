@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+.arial{font-family:Arial, "Helvetica nue", Arial, Helvetica,sans-serif; }
+
+.body{
+    background-color: #F5F5F5;
+}
+
+.container {
+    margin: 100px auto;
+    border: 1px solid #000000;
+    height: 1470px;
+    width: 840px;
+}
+
+.list1{
+    margin:30px 0 130px 0;
+}
+.list1 li{
+
+    font-size: 20px;
+    font-family: "Arial", serif;
+    line-height: 1.8;
+    text-align: left;
+    padding: 0 0 0 30px;
+}
+.list1 li:before{
+    content: '\f00c';
+    font-family:FontAwesome, serif;
+}
+
+.list1 li:nth-child(1){
+    text-decoration: line-through;
+}
+.list1 li:nth-child(2){
+    font-weight: bold;
+}
+.list1 li:nth-child(3){
+    font-style: italic;
+}
+.list1 li:nth-child(4){
+    text-transform: uppercase;
+    margin:0 0 80px 0;
+}
+
+.list1 li:nth-child(6):hover{
+    color:red;
+    image
+}
+
+
+
+
+
+.button{
+    background-color: rgb(24,181,164);
+    border-radius: 15px;
+    width: 200px;
+    height: 48px;
+    font-size: 14px;
+    font-family: "Arial", serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 0 48px 0 28px;
+    letter-spacing: 3px;
+
+}
+.button:after{
+    content:'\f178' ;
+    font-family: FontAwesome, serif;
+}
+
+
+
+.hover:hover{
+    background-color:darkslategray;
+}
+.active:active{
+    background-color: grey;
+}
+
+.p{
+    margin:80px 30px 0 30px;
+}
+.text{
+    font-size: 20px;
+    font-family: "Arial", serif;
+    line-height: 1.6;
+}
+
+
+.text:first-child{
+    margin: 0 0 30px 0;
+}
+.text:first-child:first-line{
+    color: red;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
