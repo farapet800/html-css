@@ -29,7 +29,7 @@
     <div class="about__body">
         <div class="about__header">
    <nav class="about__menu">
-       <a href="" class="about__item about__item active">HOME</a>
+       <a href="" class="about__item about__item_active">HOME</a>
        <a href="" class="about__item ">ABOUT US</a>
        <a href="" class="about__item ">PORFOLIO</a>
        <a href="" class="about__item ">CONTACT</a>
@@ -78,7 +78,7 @@
     <div class="portfolio__body">
         <div class="portfolio__title title">PORTFOLIO</div>
         <nav class="portfolio__menu">
-            <a href="" class="portfolio__item portfolio__item active">ALL</a>
+            <a href="" class="portfolio__item portfolio__item_active">ALL</a>
             <a href="" class="portfolio__item ">WEB</a>
             <a href="" class="portfolio__item ">APPS</a>
             <a href="" class="portfolio__item ">OTHER</a>
@@ -135,33 +135,28 @@
 <div class="contact">
     <div class="contact__body">
         <div class="contact__title title">CONTACT</div>
+        <div>
         <div class="contact__column">
-            <div class="contact__forms">
-                <div class="form-contact">
-                <div class="form-contact__name">
+            <div class="contact__form">
+
+                <div class="contact__name">
                     <p>YOUR NAME</p>
                     <input type="text" name="username"/>
                 </div>
+                <div class="contact__email">
+                    <p>YOUR E-MAIL</p>
+                    <input type="text" name="usermail"/>
                 </div>
-                <div class="form-contact">
-                    <div class="form-contact__email">
-                        <p>YOUR E-MAILE</p>
-                        <input type="text" name="usermail"/>
-                    </div>
+                <div class="contact__message">
+                    <p>MESSAGE</p>
+                    <textarea name="text" ></textarea>
                 </div>
-                <div class="form-contact">
-                    <div class="form-contact__MESSAGE">
-                        <p>MESSAGE</p>
-                        <textarea name="text" ></textarea>
-                    </div>
+                <div class="contact__button">
+                    <button type="submit">SEND</button>
                 </div>
-
-            </div>
-            <div class="contact__button">
-                <button type="submit">SEND</button>
-            </div>
-
+                </div>
         </div>
+
         <div class="contact__column">
             <div class="item-contact">
                 <div class="item-contact__text">Have an idea for a project? Just looking to
@@ -173,7 +168,8 @@
 
             </div>
         </div>
-    </div>
+        </div>
+</div>
 </div>
 
 <div class="footer">
